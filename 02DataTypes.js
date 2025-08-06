@@ -2,8 +2,8 @@
 
 // alert(3+3) // works only in browser, not in node
 
-console.log("hii")
-console.log("improve readability")
+// console.log("hii")
+// console.log("improve readability")
 
 let name= "Vexx"
 let age= 20     //number range 2 power 50-60s
@@ -17,6 +17,19 @@ let hasAccount= true
 
 // object
 
-console.log(typeof null)   // -> object
-console.log(typeof undefined)   // -> undefined
-console.log(typeof name)    // -> string
+// console.log(typeof null)   // -> object
+// console.log(typeof undefined)   // -> undefined
+// console.log(typeof name)    // -> string
+
+
+// "33" => number
+//  "33gd"  => NaN
+//  false/true   => 0/1
+
+let isLoggedin= 1
+let booleanisLoggedin= Boolean(isLoggedin);
+// console.log(isLoggedin);
+
+let num= 87
+let Stringnum= String(num)
+console.log(Stringnum)
